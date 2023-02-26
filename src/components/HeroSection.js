@@ -13,6 +13,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 const useStyles = makeStyles((theme) => ({
     section:{
         height: "70vh",
+        position: "relative"
     },
     content:{
         height: "100%",
@@ -41,10 +42,10 @@ const useStyles = makeStyles((theme) => ({
 export default function HeroSection() {
     const styles = useStyles()
     const [shouldShow, setShouldShow] = useState(false)
-    useEffect(() => setShouldShow(true))
+    useEffect(() => setShouldShow(true), [])
     return(
-        <Paper className={styles.section}>
-            <StaticImage className={styles.heroImage} src="https://images.unsplash.com/photo-1574610758891-5b809b6e6e2e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2676&q=80"/>
+        <Paper className={styles.section} id="about">
+            <StaticImage className={styles.heroImage} src="https://images.unsplash.com/photo-1574610758891-5b809b6e6e2e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2676&q=80" alt=""/>
             <div className={styles.overlay}></div>
             <Container className={styles.container} maxWidth="md">
                 <Grid 
