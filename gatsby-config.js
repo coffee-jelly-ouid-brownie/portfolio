@@ -23,6 +23,12 @@ module.exports = {
     options: {
       icon: `src/images/logo.png`, //Favicon logo
     },
-},
+  },
+  {
+    resolve: "gatsby-plugin-styletron",
+    options: {
+      prefix:"_"
+    }
+  }
 ]
 };

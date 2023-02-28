@@ -17,17 +17,20 @@
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
-    "@mui/core": "^5.0.0-alpha.54",
     "@mui/icons-material": "^5.11.9",
     "@mui/material": "^5.11.10",
     "@mui/styles": "^5.11.9",
+    "baseui": "^12.2.0",
     "gatsby": "^5.7.0",
     "gatsby-plugin-image": "^3.7.0",
     "gatsby-plugin-manifest": "^5.7.0",
     "gatsby-plugin-sharp": "^5.7.0",
+    "gatsby-plugin-styletron": "^8.7.0",
     "gatsby-source-filesystem": "^5.7.0",
     "gatsby-transformer-sharp": "^5.7.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styletron-engine-atomic": "^1.5.0",
+    "styletron-react": "^6.1.0"
   }
 }
