@@ -9,35 +9,28 @@ const navigationLinks = [
     {name: "About2", href: "https://sfbd.is/"}
 ];
 
-const useStyles = makeStyles((theme) => ({
-    link: {
-        marginRight: 20,
-        margin: "auto",
-    },
-    button: {
-        margin:"auto"
-    }
-}))
-
 export default function Header() {
-        const styles = useStyles();
         const [css] = useStyletron();
     return(
         <div>{navigationLinks.map((item) => (
-            <Button shape={SHAPE.pill} className={css({
-            ":enabled:hover": {background: "#1F70E9"},
-            })}
-            >
-                <Link 
-                    className={styles.link}
-                    color="textPrimary" 
-                    variant ="button" 
-                    underline="none" 
-                    href={item.href}
-                >
-                    {item.name}
-                </Link>
-            </Button>           
+            <div className="header--base">
+                <div className="header--button">
+                    <Button shape={SHAPE.pill} className={css({
+                    ":enabled:hover": {background: "#1F70E9"}
+                    })}
+                    >
+                        <Link 
+                            className="header--link"
+                            color="textPrimary" 
+                            variant ="button" 
+                            underline="none" 
+                            href={item.href}
+                        >
+                            {item.name}
+                        </Link>
+                    </Button>           
+                </div>
+            </div>
             ))} 
         </div>
     );
