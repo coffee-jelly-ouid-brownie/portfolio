@@ -1,0 +1,26 @@
+.header-active {
+    height: 72px;
+    max-width: 100%;
+    z-index: 1000;
+    position: static;
+    display: flex;
+    vertical-align: middle;
+    background-color: black;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #cba8d2 ;
+}
+.header--nav {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    position: absolute;
+    right: 300px;
+    width: 205px;
+    padding: 10px;
+    border: 1px solid green ;
+}
+.header--link {
+    color:aliceblue;
+}
+

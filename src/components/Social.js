@@ -16,12 +16,12 @@ const socialItems = [
 
 export default function Social({ direction }) {
     return(
-        <Grid container direction={direction || "row"} spacing={1}>
+        <Grid container direction={direction || "row"} spacing={1.5}>
             {socialItems.map((item) => (
                 <Grid item>
                     <Link href={item.url}>
                         <IconButton>
-                            <item.icon />
+                            <item.icon style={{ fontSize: 30 }}/>
                         </IconButton>
                     </Link>
                 </Grid>

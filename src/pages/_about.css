@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Work+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fffff8;
+    font-family: 'Poppins', 'Inter', sans-serif !important;
+}
+div.about--inner{
+    max-width: 1000px;
+    margin:auto;
+}
+
+.about--header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 3.5em;
+}
+.about--subtitle {
+    margin-bottom: 0;
+    font-size: 2em;
+    font-weight: 600;
+}
+.about--description {
+    color: rgb(66, 66, 66);
+    margin-top: 0;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+a {
+    color: rgb(11,11,11);
+    text-decoration-color: rgb(69, 187, 255);
+  }
+  
+  a:hover {
+    color: rgb(69, 187, 255);
+  }

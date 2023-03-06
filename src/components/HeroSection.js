@@ -67,6 +67,8 @@ export default function HeroSection() {
                                     href="mailto:caryshcleung@gmail.com" 
                                     variant="outlined" 
                                     color="secondary"
+                                    style={{color: '#C1A8D2'}}
+                                    
                                 >
                                     Get in touch!
                                 </Button>
