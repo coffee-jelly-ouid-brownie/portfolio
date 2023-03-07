@@ -20,7 +20,7 @@
     "@mui/icons-material": "^5.11.9",
     "@mui/material": "^5.11.10",
     "@mui/styles": "^5.11.9",
-    "baseui": "^12.2.0",
+    "baseui": "^10.9.2",
     "gatsby": "^5.7.0",
     "gatsby-plugin-image": "^3.7.0",
     "gatsby-plugin-manifest": "^5.7.0",
