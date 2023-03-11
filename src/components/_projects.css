@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Work+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', 'Inter', sans-serif !important;
+}
+
+.projects--header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 3.5em;
+}
+
+.blog--link:hover {
+    background-color: aqua;
+}

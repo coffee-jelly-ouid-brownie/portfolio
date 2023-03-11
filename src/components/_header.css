@@ -5,10 +5,9 @@
     position: static;
     display: flex;
     vertical-align: middle;
-    background-color: black;
+    background-color: rgb(15, 15, 15);
     left: 0px;
     top: 0px;
-    border: 1px solid #cba8d2 ;
 }
 .header--nav {
     display: flex;
@@ -18,7 +17,6 @@
     right: 300px;
     width: 205px;
     padding: 10px;
-    border: 1px solid green ;
 }
 .header--link {
     color:aliceblue;

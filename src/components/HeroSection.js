@@ -9,10 +9,11 @@ import { makeStyles } from '@mui/styles';
 import Social from "../components/Social"
 import Zoom from '@mui/material/Zoom'
 import { StaticImage } from 'gatsby-plugin-image';
+import "./_herosection.css";
 
 const useStyles = makeStyles((theme) => ({
     section:{
-        height: "70vh",
+        height: "100vh",
         position: "relative"
     },
     content:{
@@ -31,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
         position: "absolute"
     },
     heroImage: {
-        height: "70vh",
+        height: "100vh",
         width: "100%",
         position: "absolute",
         zIndex: 1,
@@ -56,12 +57,12 @@ export default function HeroSection() {
                 >
                     <Zoom in={shouldShow}>
                         <Grid item sm={8}>
-                            <Typography component="h1" variant="h3">
-                                Hero section.
-                            </Typography>
-                            <Typography variant="h5">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            </Typography>
+                            <h1 className='hero--welcome'>
+                                Hi, I'm Carys Leung.
+                            </h1>
+                            <h4 className='hero--text'>
+                                I build things! I'm a student and an aspiring engineer. This is where I share what I'm working on and stuff I'm interested in :)
+                            </h4>
                             <Box my={2}>
                                 <Button 
                                     href="mailto:caryshcleung@gmail.com" 
