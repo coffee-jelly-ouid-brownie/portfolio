@@ -15,6 +15,9 @@ export default function aboutPage() {
                     <p>
                         Hi!, I'm Carys Leung, and I'm a student at Perse Upper. I really like to make stuff, so I decided make a website from scratch so I can share my creations or whatever else I feel like :) 
                     </p>
+                    <p>
+                        I am a member of the Perse Engineering Club, we're currently focused on competing at <a href="https://www.greenpower.co.uk/">Greenpower</a>, where we have to design, build and race an electric car.
+                    </p>
                 </div>
                 {/* Dope website! How'd you make it? */}
                 <h2 className="about--subtitle">Dope website! How'd you make it??</h2>
@@ -23,7 +26,7 @@ export default function aboutPage() {
                         I used <a href="https://www.gatsbyjs.com/">Gatsby</a>,a React-based open source framework and CSS to style it. Definetely was challenging at times, but it was really rewarding when I finally managed to figure it out. 
                     </p>
                     <p>
-                        Here's the <a href="#">blog repository</a>, more about how I made the website can be found on my blog <a href="#">here</a>.
+                        Here's the <a href="https://github.com/coffee-jelly-ouid-brownie/portfolio">blog repository</a>, more about how I made the website can be found on my blog <a href="#">here</a>.
                     </p>
                 </div>
                 {/* Current projects */}

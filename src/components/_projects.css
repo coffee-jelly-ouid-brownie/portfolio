@@ -11,7 +11,3 @@ body {
     font-weight: 600;
     font-size: 3.5em;
 }
-
-.blog--link:hover {
-    background-color: aqua;
-}

@@ -7,7 +7,7 @@ import IconButton from '@mui/material/IconButton'
 import Link from '@mui/material/Link';
 
 const socialItems = [
-    {icon: GithubIcon, url: ""},
+    {icon: GithubIcon, url: "https://github.com/coffee-jelly-ouid-brownie"},
     {icon: LinkedInIcon, url: "https://www.linkedin.com/in/carys-leung-356837258/"},
     {icon: TwitterIcon, url: "https://twitter.com/CarysLeung"}
 ]
@@ -17,11 +17,11 @@ const socialItems = [
 export default function Social({ direction }) {
     return(
         <Grid container direction={direction || "row"} spacing={1.5}>
-            {socialItems.map((item) => (
-                <Grid item>
-                    <Link href={item.url}>
-                        <IconButton>
-                            <item.icon style={{ fontSize: 30 }}/>
+            {socialItems.map((item, i) => (
+                <Grid item key={i}>
+                    <Link href={item.url} key={i}>
+                        <IconButton key={i}>
+                            <item.icon style={{ fontSize: 30 }} key={i}/>
                         </IconButton>
                     </Link>
                 </Grid>

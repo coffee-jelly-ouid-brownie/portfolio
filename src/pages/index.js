@@ -4,6 +4,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import HeroSection from '../components/HeroSection';
 import Header from '../components/Header';
 import Projects from '../components/Projects';
+import Footer from '../components/Footer'
 
 let darkTheme = createTheme({
   palette: {
@@ -19,6 +20,7 @@ export default function indexPage() {
       <Header />
       <HeroSection />
       <Projects />
+      <Footer />
     </ThemeProvider>
   )
 }

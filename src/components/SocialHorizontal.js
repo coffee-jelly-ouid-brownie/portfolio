@@ -18,11 +18,11 @@ export default function Social({ direction }) {
     return(
         <div className="socialHorizontal">
             <Grid container direction={direction || "column"} spacing={3}>
-                {socialItems.map((item) => (
-                    <Grid item>
-                        <Link href={item.url}>
-                            <IconButton>
-                                <item.icon style={{ fontSize: 30 }}/>
+                {socialItems.map((item, j) => (
+                    <Grid item key={j}>
+                        <Link href={item.url} key={j}>
+                            <IconButton key={j}>
+                                <item.icon style={{ fontSize: 30 }} key={j} />
                             </IconButton>
                         </Link>
                     </Grid>

@@ -1,11 +1,27 @@
-.header-active {
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Work+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap');
+
+.header--name {
+    font-family: "Jockey One", "Inter", sans-serif !important;
+    font-size: 3em;
+    white-space: nowrap;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    margin-left: 300px;
+    color: aliceblue;
+}
+
+.header--active {
     height: 72px;
     max-width: 100%;
     z-index: 1000;
     position: static;
     display: flex;
     vertical-align: middle;
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(15, 15, 15) ;
     left: 0px;
     top: 0px;
 }

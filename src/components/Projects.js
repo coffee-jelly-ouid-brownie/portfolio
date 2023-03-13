@@ -42,7 +42,7 @@ function Project({ title, description, imageUrl, tags, links, pagehref }) {
 
                 <div>
                   {pagehref?.map((pages) => (
-                    <Link href={pages.href} style={{color: 'white'}} underline="none" className="blog--link">
+                    <Link href={pages.href} key={pages.href} style={{color: 'white'}} underline="none" className="blog--link">
                   
 
                   
@@ -78,7 +78,6 @@ function Project({ title, description, imageUrl, tags, links, pagehref }) {
 }
 
 export default function Projects() {
-    const styles = useStyles()
     return (
       <Container maxWidth="md" id="projects">
         <Box pt={8} mb={2}>
@@ -95,9 +94,9 @@ export default function Projects() {
 
 const projectsData = [
     {
-      title: "Lorem ipsum dolor sit amet, consectetur adipiscing ",
+      title: "Website launch!",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+        "This is my first post on this new blog! I've never done any web development before, so this is will be a good chance to learn some new stuff! A quick read into the future of this blog and what I'll be sharing",
       imageUrl:
         "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
       imageAlt: "Project 1 Image",
@@ -109,7 +108,7 @@ const projectsData = [
         },
         {
           icon: OpenInNewIcon,
-          href: "https://www.google.com",
+          href: "/first-post",
         },
       ],
       pagehref: [

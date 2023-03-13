@@ -7,7 +7,7 @@
 }
 .footer--content {
     width: 85vw;
-    background-color: #fffff8;
+    
     margin-top: 10px;
     padding-top: 20px;
     padding-bottom: 40px;
@@ -15,8 +15,8 @@
     justify-content: space-between;
 }
 img{
-    height: 64px;
-    width: 64px;
+    height: 78px;
+    width: 90px;
     object-fit: cover;
     
 }
