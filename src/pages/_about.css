@@ -12,10 +12,14 @@ body {
 div.about--inner{
     max-width: 1000px;
     margin:auto;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .about--header {
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
     font-weight: 600;
     font-size: 3.5em;
 }

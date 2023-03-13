@@ -13,7 +13,7 @@ export default function aboutPage() {
                 <h2 className="about--subtitle">Who am I?</h2>
                 <div className="about--description">
                     <p>
-                        Hi!, I'm Carys Leung, and I'm a student at Perse Upper. I really like to make stuff, so I decided make a website from scratch so I can share my creations or whatever else I feel like :) 
+                        Hi! I'm Carys Leung, and I'm a student at Perse Upper. I really like to make stuff, so I decided make a website from scratch so I can share my creations or whatever else I feel like :) 
                     </p>
                     <p>
                         I am a member of the Perse Engineering Club, we're currently focused on competing at <a href="https://www.greenpower.co.uk/">Greenpower</a>, where we have to design, build and race an electric car.
@@ -44,3 +44,5 @@ export default function aboutPage() {
         </div>
     )
 }
+
+export const Head = () => <title>About me!</title>
