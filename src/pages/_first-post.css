@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Work+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap');
+
+.firstpost--body {
+    margin: auto;
+    max-width: 1000px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.firstpost--card {
+    margin-top: 70px;
+    max-width: 1000px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    font-family: 'Poppins', 'Inter', sans-serif !important;
+}
+.firstpost--header {
+    font-size: 2.9em;
+}
+.firstpost--postinfo {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', 'Inter', sans-serif !important;
+    color: rgb(50, 50, 50);
+    font-weight: 500;
+    font-size: 0.8em;
+}
+.firstpost--icon {
+    display: flex;
+    align-items: center; /*Aligns the center of components*/
+}
+.firstpost--image {
+    border-radius: 15px;
+}
+.firstpost--content {
+    font-family: 'Poppins', 'Inter', sans-serif !important;
+    font-size: 1.2em;
+    line-height: 1.6;
+}

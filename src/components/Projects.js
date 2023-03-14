@@ -3,7 +3,6 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import Container from '@mui/material/Container'
 import Grid from '@mui/material/Grid'
-import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
@@ -42,17 +41,13 @@ function Project({ title, description, imageUrl, tags, links, pagehref }) {
 
                 <div>
                   {pagehref?.map((pages) => (
-                    <Link href={pages.href} key={pages.href} style={{color: 'white'}} underline="none" className="blog--link">
-                  
-
-                  
-                        
+                    <Link href={pages.href} key={pages.href} style={{color: 'white'}} underline="none">
                         <CardMedia className={styles.cardMedia} image={imageUrl}></CardMedia>
                         <CardContent>
-                            <Typography variant="h5" paragraph>
+                            <h2 className='blog--title'>
                                 {title}
-                            </Typography>
-                            <Typography variant="subtitle1" paragraph>{description}</Typography>
+                            </h2>
+                            <p className='blog--description'>{description}</p>
                         </CardContent>
                     </Link>
                     ))}
@@ -96,16 +91,12 @@ const projectsData = [
     {
       title: "Website launch!",
       description:
-        "This is my first post on this new blog! I've never done any web development before, so this is will be a good chance to learn some new stuff! A quick read into the future of this blog and what I'll be sharing",
+        "This is my first post on this new blog! I've never done any web development before, so this is will be a good chance to learn some new stuff! A quick read into the future of this blog and what I'll be sharing :)",
       imageUrl:
         "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
       imageAlt: "Project 1 Image",
       tags: ["React.js", "Material-UI", "Gatsby.js"],
       links: [
-        {
-          icon: GitHubIcon,
-          href: "https://www.github.com",
-        },
         {
           icon: OpenInNewIcon,
           href: "/first-post",
