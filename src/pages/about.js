@@ -23,7 +23,7 @@ export default function aboutPage() {
                 <h2 className="about--subtitle">Dope website! How'd you make it??</h2>
                 <div className="about--description">
                     <p>
-                        I used <a href="https://www.gatsbyjs.com/">Gatsby</a>,a React-based open source framework and CSS to style it. Definetely was challenging at times, but it was really rewarding when I finally managed to figure it out. 
+                        I used <a href="https://www.gatsbyjs.com/">Gatsby</a>,a React-based open source framework, and <a href="https://mui.com/">Material UI</a> for ReactJS components, and CSS to style it. Definetely was challenging at times, but it was really rewarding when I finally managed to figure it out. 
                     </p>
                     <p>
                         Here's the <a href="https://github.com/coffee-jelly-ouid-brownie/portfolio">blog repository</a>, more about how I made the website can be found on my blog <a href="#">here</a>.
