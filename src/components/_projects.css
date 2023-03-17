@@ -19,6 +19,10 @@ body {
     font-size: 2.1em;
 }
 
+.blog--card {
+    border-radius: 16px !important;
+}
+
 .blog--description {
     font-family: 'Poppins', 'Inter', sans-serif !important;
     margin-top: 0px;

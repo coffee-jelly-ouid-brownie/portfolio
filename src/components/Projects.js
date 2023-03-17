@@ -16,7 +16,7 @@ import Link from '@mui/material/Link';
 import "./_projects.css";
 
 const useStyles = makeStyles((theme) =>({
-    cardMedia:{
+  cardMedia:{
         width: "100%",
         height: 300,
     },
@@ -36,7 +36,7 @@ function Project({ title, description, imageUrl, tags, links, pagehref }) {
     const styles = useStyles()
     return ( 
         <Grid item>
-            <Card>
+            <Card className="blog--card">
               <CardActionArea>
 
                 <div>
