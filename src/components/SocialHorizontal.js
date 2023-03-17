@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import GithubIcon from '@mui/icons-material/GitHub'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
