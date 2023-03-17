@@ -7,9 +7,9 @@ import IconButton from '@mui/material/IconButton'
 import Link from '@mui/material/Link';
 
 const socialItems = [
-    {icon: GithubIcon, url: ""},
-    {icon: LinkedInIcon, url: ""},
-    {icon: TwitterIcon, url: ""}
+    {icon: GithubIcon, url: "https://github.com/coffee-jelly-ouid-brownie", label:"Github profile button"},
+    {icon: LinkedInIcon, url: "https://www.linkedin.com/in/carys-leung-356837258/", label:"LinkedIn profile button"},
+    {icon: TwitterIcon, url: "https://twitter.com/CarysLeung", label:"Twitter profile button"}
 ]
 
 
