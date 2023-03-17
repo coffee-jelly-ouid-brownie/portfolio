@@ -29,6 +29,9 @@ module.exports = {
     options: {
       prefix:"_"
     }
-  }
+  },
+  {
+    pathPrefix: `/blog`,
+  },
 ]
 };
