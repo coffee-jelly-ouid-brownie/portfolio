@@ -9,7 +9,13 @@ export default function Header() {
         const [css] = useStyletron();
     return(
         <header className="header--active">
-            <a href="/" style={{color: 'white'}} className="header--name">Carys Leung</a>
+            <a 
+                href="/#top" 
+                style={{color: 'white'}} 
+                className="header--name"
+            >
+                Carys Leung
+            </a>
                 <div className="header--nav">
                     
                     <Button 
@@ -19,7 +25,22 @@ export default function Header() {
                             colors: { buttonPrimaryFill: "#111111", },
                         })} 
                     >
-                        <Link href="/about" underline="none" style={{color: 'white'}} className="header--link" color="inherit">About</Link>
+                        <Link 
+                            className="header--link"
+                            href="/about" 
+                            onClick={() => {
+                                window.scroll({
+                                    top: 0,
+                                    left: 0,
+                                    behavior: "smooth",
+                                });
+                            }}
+                            underline="none" 
+                            style={{color: 'white'}}  
+                            color="inherit"
+                        >
+                        About
+                        </Link>
                     </Button>
                     <Button 
                         shape={SHAPE.pill}
