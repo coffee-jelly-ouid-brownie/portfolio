@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ThemeProvider, createTheme, responsiveFontSizes } from "@mui/material/styles";
 import CssBaseline from '@mui/material/CssBaseline';
 import HeroSection from '../components/HeroSection';
@@ -12,7 +12,10 @@ let darkTheme = createTheme({
 });
 darkTheme = responsiveFontSizes(darkTheme)
 
-export default function indexPage() {
+export default function IndexPage() {
+  useEffect(() => {
+    document.title = 'Carys Leung';
+  }, []);
   return(
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
