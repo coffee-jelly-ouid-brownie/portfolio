@@ -4,8 +4,8 @@
 module.exports = {
   pathPrefix: "/portfolio",
   siteMetadata: {
-    title: `Portfolio Gatsby`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `Carys Leung`,
+    siteUrl: `https://www.carysleung.com`,
   },
   plugins: [
     "gatsby-plugin-image", 

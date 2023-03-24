@@ -3,7 +3,8 @@ import { ThemeProvider, createTheme, responsiveFontSizes } from "@mui/material/s
 import CssBaseline from '@mui/material/CssBaseline';
 import HeroSection from '../components/HeroSection';
 import Projects from '../components/Projects';
-import Footer from '../components/Footer'
+import Footer from '../components/Footer';
+import Header from '../components/Header';
 
 let darkTheme = createTheme({
   palette: {
@@ -19,8 +20,9 @@ export default function IndexPage() {
   return(
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
+      <Header />
       <HeroSection />
-      <Projects />
+      <Projects id="projects" />
       <Footer />
     </ThemeProvider>
   )
