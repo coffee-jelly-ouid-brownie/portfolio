@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../components/Header'
+import Header from '../components/Header/Header'
 import "./_about.css";
-import Footer from "../components/Footer"
+import Footer from "../components/Footer/Footer"
 
 export default function aboutPage() {
     return(
@@ -34,7 +34,7 @@ export default function aboutPage() {
                 <div className="about--description">
                     <p>I am doing work experience at <a href="https://sfbd.is/">Surfboard</a>, a start-up company that allows users to share their Arduino code online easily. I've been able to learn about web development and managed to contribute to the website myself as well! It's been lot of fun working with them so far!
                     </p>
-                    <p>I'm also working on building a quadrupedal robot - You can find updates on my progress <a href="#">here</a>!
+                    <p>I'm also working on building a quadrupedal robot - You can find updates on my progress <a href="https://www.google.com/">here</a>!
                     </p>
                     <p>And of course will be working on adding more features (or gimmicks) to this website over time :)
                     </p>

@@ -5,7 +5,7 @@ import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 import { makeStyles } from '@mui/styles';
-import Social from "../components/Social"
+import Social from "../Social/Social"
 import Zoom from '@mui/material/Zoom'
 import { StaticImage } from 'gatsby-plugin-image';
 import "./_herosection.css";

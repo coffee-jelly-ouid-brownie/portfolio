@@ -1,7 +1,7 @@
 import React from 'react';
 import './_footer.css'
-import logo from '../images/favicon.png';
-import SocialHorizontal from './SocialHorizontal';
+import logo from '../../images/favicon.png';
+import SocialHorizontal from '../SocialHorizontal/SocialHorizontal';
 
 export default function Footer() {
     return(

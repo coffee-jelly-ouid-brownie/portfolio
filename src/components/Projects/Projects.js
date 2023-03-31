@@ -99,7 +99,7 @@ const projectsData = [
       links: [
         {
           icon: OpenInNewIcon,
-          href: "/portfolio/first-post",
+          href: "/first-post",
         },
       ],
       pagehref: [

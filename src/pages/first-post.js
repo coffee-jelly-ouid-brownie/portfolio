@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from "baseui/card";
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
 import HourglassBottomIcon from '@mui/icons-material/HourglassBottom';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import { StaticImage } from "gatsby-plugin-image";

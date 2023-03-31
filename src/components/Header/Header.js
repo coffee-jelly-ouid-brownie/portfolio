@@ -49,7 +49,7 @@ export default function Header() {
                             colors: { buttonPrimaryFill: "#111111", },
                         })} 
                     >
-                        <Link href="/" underline="none" style={{color: 'white'}} className="header--link" color="inherit">Assets</Link>
+                        <Link href="/archive" underline="none" style={{color: 'white'}} className="header--link" color="inherit">Archive</Link>
                     </Button>
                 </div>              
         </header>
