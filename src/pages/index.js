@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider, createTheme, responsiveFontSizes } from "@mui/material/styles";
 import CssBaseline from '@mui/material/CssBaseline';
 import HeroSection from '../components/HeroSection/HeroSection';
@@ -20,7 +21,9 @@ export default function IndexPage() {
   return(
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-      <Header />
+      <BrowserRouter>
+        <Header />
+      </BrowserRouter>
       <HeroSection />
       <Projects id="projects" />
       <Footer />

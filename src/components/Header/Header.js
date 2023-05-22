@@ -1,8 +1,10 @@
 import React from 'react';
-import Link from '@mui/material/Link';
+import Link from '@mui/material/Link'
 import { useStyletron } from "styletron-react";
 import { Button, SHAPE } from "baseui/button"
 import './_header.css';
+import Archives from '../Archives/Archives';
+import About from '../../pages/about'
 
 
 export default function Header() {

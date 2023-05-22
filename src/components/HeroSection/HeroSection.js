@@ -60,7 +60,7 @@ export default function HeroSection() {
                                 Hi, I'm Carys Leung.
                             </h1>
                             <h4 className='hero--text'>
-                                I build things! I'm a student and an aspiring engineer. This is where I share what I'm working on and stuff I'm interested in :)
+                                I build things! I'm a student and an aspiring engineer. This is where I share what I'm working on and stuff I'm interested in 
                             </h4>
                             <Box my={2}>
                                 <Button 
