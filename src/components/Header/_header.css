@@ -4,36 +4,28 @@
 .header--active {
     height: 72px;
     max-width: 100%;
-    z-index: 1000;
-    position: static;
-    display: flex;
-    vertical-align: middle;
+    font-family: "Jockey One", "Inter", sans-serif !important;
     background-color: rgb(20, 20, 20) ;
-    left: 0px;
-    top: 0px;
 }
 .header--link {
     color:aliceblue;
 }
 .header--name {
-    font-family: "Jockey One", "Inter", sans-serif !important;
-    font-size: 3em;
-    white-space: nowrap;
-    text-decoration: none;
-    margin-top: 10px;
     font-weight: 300;
     font-size: 2em;
-    margin-left: 300px;
+    text-decoration: none;
+    white-space: nowrap;
     color: aliceblue;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 20%;
 }
 
 .header--nav {
     display: flex;
-    justify-content: space-between;
-    vertical-align: middle;
-    position: absolute;
-    right: 300px;
-    width: 205px;
     padding: 10px;
+    float: right;
+    gap: 15px;
+    margin-right: 20%;
 }
 

@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) =>({
     },
 }))
 
-function Project({ title, description, imageUrl, tags, links, pagehref }) {
+function Project({ title, date, description, image, tags, links, pagehref }) {
     const styles = useStyles()
     return ( 
         <Grid item>
@@ -42,11 +42,20 @@ function Project({ title, description, imageUrl, tags, links, pagehref }) {
                 <div>
                   {pagehref?.map((pages) => (
                     <Link href={pages.href} key={pages.href} style={{color: 'white'}} underline="none">
-                        <CardMedia className={styles.cardMedia} image={imageUrl}></CardMedia>
+                      {image?.map((item,j) => (
+
+                        <img src={require("../../images/" + item.imageUrl).default} className="blog--image" alt={item.imageAlt}/>
+                      ))}
                         <CardContent>
+                          <div className='blog--format'>
+
                             <h2 className='blog--title'>
                                 {title}
                             </h2>
+                            <h3 className='blog--date'>
+                              {date}
+                            </h3>
+                          </div>
                             <p className='blog--description'>{description}</p>
                         </CardContent>
                     </Link>
@@ -90,11 +99,16 @@ export default function Projects() {
 const projectsData = [
     {
       title: "Website launch!",
+      date: "14/03/2023",
       description:
-        "This is my first post on this new blog! I've never done any web development before, so this is will be a good chance to learn some new stuff! A quick read into the future of this blog and what I'll be sharing :)",
-      imageUrl:
-        "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-      imageAlt: "Project 1 Image",
+        "This is my first post on this new blog, I've never done any web development before, so this is will be a good chance to learn some new stuff. A quick read into the future of this blog and what I'll be sharing",
+      image: [
+        {
+        imageUrl: "space.jpg",
+        imageAlt: "Website launch",
+
+        }
+      ],
       tags: ["React.js", "Material-UI", "Gatsby.js"],
       links: [
         {
@@ -110,26 +124,31 @@ const projectsData = [
         
     },
     {
-      title: "Lorem ipsum dolor sit amet",
+      title: "Beginning of the Quadruped",
+      date: "11/05/2023",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
-      imageAlt: "Project 2 Image",
-      imageUrl:
-        "https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80",
-      tags: ["GraphQL", "Apollo Client", "Prisma", "Material-UI"],
+        "Roughly at the start of the year, I've been wanting to work on an ambitious project: Building a quadruped robot completely from scratch that would be able to walk and some static movements. A quick update on my progress so far..",
+        image: [
+          {
+          imageUrl: "3D-parts.jpg",
+          imageAlt: "Quadruped 3D printed parts",
+  
+          }
+        ],
+      tags: ["Quadruped"],
       links: [
         {
-          icon: GitHubIcon,
-          href: "https://www.github.com",
+          icon: OpenInNewIcon,
+          href: "/quadruped-beginning",
         },
         {
-          icon: OpenInNewIcon,
-          href: "https://www.google.com",
+          icon: GitHubIcon,
+          href: "https://github.com/coffee-jelly-ouid-brownie/servo-tests",
         },
       ],
       pagehref: [
         {
-         href: "/about" 
+         href: "/quadruped-beginning" 
         },
       ],
     },

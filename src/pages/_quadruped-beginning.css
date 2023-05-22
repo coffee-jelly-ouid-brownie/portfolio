@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Work+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap');
+
+.bq--body {
+    margin: auto;
+    max-width: 1000px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.bq--card {
+    margin-top: 70px;
+    max-width: 1000px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    font-family: 'Poppins', 'Inter', sans-serif !important;
+    box-shadow: 6px 5px 20px 0px rgb(180, 180, 180), -6px -5px 20px 0px rgb(250, 250, 250);
+}
+.bq--header {
+    font-size: 2.9em;
+}
+.bq--postinfo {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', 'Inter', sans-serif !important;
+    color: rgb(50, 50, 50);
+    font-weight: 500;
+    font-size: 0.8em;
+}
+.bq--icon {
+    display: flex;
+    align-items: center; /*Aligns the center of components*/
+}
+.bq--image {
+    border-radius: 15px;
+}
+
+.bq--content {
+    font-family: 'Poppins', 'Inter', sans-serif !important;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.bq--designimagegroup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bq--designimage {
+    height: 200px;
+    width: 290px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.bq--caption {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 0px;
+}

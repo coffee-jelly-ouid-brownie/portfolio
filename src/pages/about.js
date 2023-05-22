@@ -13,14 +13,14 @@ export default function aboutPage() {
                 <h2 className="about--subtitle">Who am I?</h2>
                 <div className="about--description">
                     <p>
-                        Hi! I'm Carys Leung, and I'm a student at Perse Upper. I really like to make stuff, so I decided make a website from scratch so I can share my creations or whatever else I feel like :) 
+                        Hi! I'm Carys Leung, and I'm a student at Perse Upper. I really like to make stuff, so I decided make a website from scratch so I can share my creations or whatever else I feel like
                     </p>
                     <p>
                         I am a member of the Perse Engineering Club, we're currently focused on competing at <a href="https://www.greenpower.co.uk/">Greenpower</a>, where we have to design, build and race an electric car.
                     </p>
                 </div>
                 {/* Dope website! How'd you make it? */}
-                <h2 className="about--subtitle">Dope website! How'd you make it??</h2>
+                <h2 className="about--subtitle">Awesome website! How'd you make it?</h2>
                 <div className="about--description">
                     <p>
                         I used <a href="https://www.gatsbyjs.com/">Gatsby</a>,a React-based open source framework, and <a href="https://mui.com/">Material UI</a> for ReactJS components, and CSS to style it. Definetely was challenging at times, but it was really rewarding when I finally managed to figure it out. 
@@ -34,9 +34,9 @@ export default function aboutPage() {
                 <div className="about--description">
                     <p>I am doing work experience at <a href="https://sfbd.is/">Surfboard</a>, a start-up company that allows users to share their Arduino code online easily. I've been able to learn about web development and managed to contribute to the website myself as well! It's been lot of fun working with them so far!
                     </p>
-                    <p>I'm also working on building a quadrupedal robot - You can find updates on my progress <a href="https://www.google.com/">here</a>!
+                    <p>I'm also working on building a quadrupedal robot - You can find updates on my progress <a href="https://www.google.com/">here</a>
                     </p>
-                    <p>And of course will be working on adding more features (or gimmicks) to this website over time :)
+                    <p>And of course will be working on adding more features to this website over time
                     </p>
                 </div>
             </div>
@@ -44,5 +44,3 @@ export default function aboutPage() {
         </div>
     )
 }
-
-export const Head = () => <title>About me!</title>
